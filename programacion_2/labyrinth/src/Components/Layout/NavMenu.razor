@@ -1,0 +1,48 @@
+﻿<div class="top-row flex bg-metallic navbar navbar-dark">
+    <div class="pl-2 content-center bg-deep-blue flex-1">
+        <a class="text-xl text-white" href="">Programación 2</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable bg-gradient-to-r from-deep-blue to-blue"
+    onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="fileUpload">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Labyrinth
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="sequences">
+                <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Sequences
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="digital-root">
+                <span class="bi bi-plus-slash-minus" aria-hidden="true"></span> Digital Roots
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="pixels">
+                <span class="bi bi-collection" aria-hidden="true"></span> Pixels
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="lists">
+                <span class="bi bi-filter-square-fill" aria-hidden="true"></span> Lists
+            </NavLink>
+        </div>
+    </nav>
+</div>

@@ -1,0 +1,58 @@
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/bin/Debug/net8.0/appsettings.json
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/bin/Debug/net8.0/src.staticwebassets.runtime.json
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/bin/Debug/net8.0/src.exe
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/bin/Debug/net8.0/src.deps.json
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/bin/Debug/net8.0/src.runtimeconfig.json
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/bin/Debug/net8.0/src.dll
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/bin/Debug/net8.0/src.pdb
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/src.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/src.AssemblyInfoInputs.cache
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/src.AssemblyInfo.cs
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/src.csproj.CoreCompileInputs.cache
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/src.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/staticwebassets/msbuild.src.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/staticwebassets/msbuild.build.src.props
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.src.props
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.src.props
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/scopedcss/bundle/src.styles.css
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/scopedcss/projectbundle/src.bundle.scp.css
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/src.dll
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/refint/src.dll
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/src.pdb
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/src.genruntimeconfig.cache
+C:/Users/maria/OneDrive/Escritorio/Backend development/labyrinth/src/obj/Debug/net8.0/ref/src.dll
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/bin/Debug/net8.0/appsettings.Development.json
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/bin/Debug/net8.0/appsettings.json
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/bin/Debug/net8.0/src.staticwebassets.runtime.json
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/bin/Debug/net8.0/src
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/bin/Debug/net8.0/src.deps.json
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/bin/Debug/net8.0/src.runtimeconfig.json
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/bin/Debug/net8.0/src.dll
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/bin/Debug/net8.0/src.pdb
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/src.GeneratedMSBuildEditorConfig.editorconfig
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/src.AssemblyInfoInputs.cache
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/src.AssemblyInfo.cs
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/src.csproj.CoreCompileInputs.cache
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/src.MvcApplicationPartsAssemblyInfo.cache
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/staticwebassets.build.json
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/staticwebassets.development.json
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/staticwebassets/msbuild.src.Microsoft.AspNetCore.StaticWebAssets.props
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/staticwebassets/msbuild.build.src.props
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.src.props
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.src.props
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/staticwebassets.pack.json
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/scopedcss/Components/Layout/MainLayout.razor.rz.scp.css
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/scopedcss/Components/Layout/NavMenu.razor.rz.scp.css
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/scopedcss/bundle/src.styles.css
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/scopedcss/projectbundle/src.bundle.scp.css
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/src.dll
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/refint/src.dll
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/src.pdb
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/src.genruntimeconfig.cache
+/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/ref/src.dll

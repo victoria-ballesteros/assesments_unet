@@ -1,0 +1,54 @@
+@page "/lists"
+
+@rendermode InteractiveServer
+@using System.Net.Http.Headers
+
+<PageTitle>Lists</PageTitle>
+
+<section class="bg-blue pt-5 pb-10">
+    <div class="flex m-10">
+        <h1 class="text-6xl">Upload Lists</h1>
+    </div>
+    <div class="flex pl-10">
+        <InputFile OnChange="@OnInputFileChange" />
+    </div>
+</section>
+<section class="flex justify-center gap-10 pt-5">
+    <div>
+        @if (fileContent != null)
+        {
+            <h2 class="pb-3">Contenido a procesar:</h2>
+            <pre>@fileContent</pre>
+        }
+    </div>
+    <div>
+        @if (final != null)
+        {
+            <h2 class="pb-3">Contenido procesado:</h2>
+            <ul>
+                @foreach (var item in final)
+                {
+                    <li>@item</li>
+                }
+            </ul>
+        }
+    </div>
+</section>
+
+@code
+{
+    private string fileContent;
+    private List<string> final;
+    private Lists lists = new Lists();
+    private async Task OnInputFileChange(InputFileChangeEventArgs e)
+    {
+        var file = e.File;
+        long maxsize = 512000;
+        var buffer = new byte[file.Size];
+        await file.OpenReadStream(maxsize).ReadAsync(buffer);
+        fileContent = System.Text.Encoding.UTF8.GetString(buffer);
+        string[] lines = fileContent.Split(Environment.NewLine, StringSplitOptions.RemoveEmptyEntries);
+        List<string> lineList = new List<string>(lines);
+        lists.Solucion(lineList);
+    }
+}

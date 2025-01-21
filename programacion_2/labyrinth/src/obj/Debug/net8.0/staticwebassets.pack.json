@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/obj/Debug/net8.0/scopedcss/projectbundle/src.bundle.scp.css",
+      "PackagePath": "staticwebassets/src.bundle.scp.css"
+    },
+    {
+      "Id": "/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/wwwroot/file/laberinto.txt",
+      "PackagePath": "staticwebassets/file/laberinto.txt"
+    },
+    {
+      "Id": "/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/wwwroot/file/pixeles.txt",
+      "PackagePath": "staticwebassets/file/pixeles.txt"
+    },
+    {
+      "Id": "/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/wwwroot/file/roots.txt",
+      "PackagePath": "staticwebassets/file/roots.txt"
+    },
+    {
+      "Id": "/run/media/victoria/Nuevo vol/Programación 2/MVC/labyrinth/src/wwwroot/file/secuencia.txt",
+      "PackagePath": "staticwebassets/file/secuencia.txt"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.src.props",
+      "PackagePath": "build\\src.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.src.props",
+      "PackagePath": "buildMultiTargeting\\src.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.src.props",
+      "PackagePath": "buildTransitive\\src.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.src.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
