@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8EC5967-B41A-34B6-2E54-DE1FB75D2DDD" name="SUCURSAL">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:18:16 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSucursal" id="C275AEF1-9FE6-CE3E-8529-D7ABF5474D45">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:20:47 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="6A60BC6F-8F31-C97B-03C4-C584DB8D8114">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:20:47 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="4D4F57F6-FD21-64EA-0366-8A6D746D0A16">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:20:47 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="9BD5DF84-C001-D392-723D-7401572C7EC1">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:20:47 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3A99179A-BC25-16DF-56C7-08A1CF8449C1" name="SUCURSAL_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:32:51 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C275AEF1-9FE6-CE3E-8529-D7ABF5474D45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

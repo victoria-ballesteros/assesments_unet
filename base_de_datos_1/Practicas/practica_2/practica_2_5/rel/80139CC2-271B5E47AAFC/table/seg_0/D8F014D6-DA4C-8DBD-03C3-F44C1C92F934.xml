@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D8F014D6-DA4C-8DBD-03C3-F44C1C92F934" name="FACTURA">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:07:31 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nro_factura" id="0B195067-3E4C-DA06-4F00-B8E2F232820A">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:08:48 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="C7FF6C25-9A1B-0B44-5769-85196F596D75">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:08:48 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="D6B58FE2-1280-B9A8-0853-F7B5634E7B74">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:08:48 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="22D9BB26-4983-55FB-BF7D-6A959A18B5F8">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:08:48 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cedula_empleado" id="B82CB0ED-5ABB-A631-3BEF-3BD2C909A83A">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:09:23 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29837498-490C-535B-9C55-154D6F67F853" referredColumn="8190BDD4-9C50-62EB-383A-10F5D0EC263F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02098C1D-77E8-84EA-48C1-A1A93A82AAD2" name="FACTURA_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:08:48 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0B195067-3E4C-DA06-4F00-B8E2F232820A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="898C3586-2075-11C4-D32B-AAC00321F30B" name="FACTURA_EMPLEADO_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:09:23 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B82CB0ED-5ABB-A631-3BEF-3BD2C909A83A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

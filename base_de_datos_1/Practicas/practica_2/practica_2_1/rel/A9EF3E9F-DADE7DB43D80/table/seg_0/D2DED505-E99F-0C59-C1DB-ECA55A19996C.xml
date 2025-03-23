@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D2DED505-E99F-0C59-C1DB-ECA55A19996C" name="TRANSACCION">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:25:59 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idTransaccion" id="80E31D3E-97C3-9CCE-3B04-0112B5698902">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:27:45 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="2ED25564-ADB9-5F12-9248-3B6560A27F97">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:27:45 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="D7C181C1-29C9-F332-C30C-EB504FB8A428">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:27:45 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idCuenta" id="46ABBA5A-5CCD-083B-3C96-B56974467A84">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:27:45 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CE9DDC4-B187-7A0B-0D8E-DBE0059300F2" referredColumn="E72142A8-0A41-56D5-A5FC-6E4AE7FEE0B9"/>
+</associations>
+</Column>
+<Column name="idCliente" id="84FAD70A-3F17-6D98-3528-DCBC6466E32A">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:27:45 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ECD6A18B-0B2D-FF69-74F7-3185C49CA0CA" referredColumn="C4640EE9-339C-E4DE-99E9-34D0AF0D29D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="946EEA8C-209B-4348-9553-D1E6286C3DED" name="TRANSACCION_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:36:42 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="80E31D3E-97C3-9CCE-3B04-0112B5698902"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE875077-96E9-12F3-F68F-2DA15A271400" name="TRANSACCION_CUENTA_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:37:35 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="46ABBA5A-5CCD-083B-3C96-B56974467A84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA9BF5B9-AEA1-578D-57E1-912224F9F8AA" name="TRANSACCION_CLIENTE_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:38:25 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84FAD70A-3F17-6D98-3528-DCBC6466E32A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

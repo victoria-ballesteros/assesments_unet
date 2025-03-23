@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33077E8D-1DCB-B36E-B613-7B0D4C4A145D" name="AULA">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:04:45 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAula" id="18B2739B-2BF2-6B25-4E55-D17A05B1F1F0">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:06:57 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad" id="C64B416A-A746-5AD9-4B43-CA409D672161">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:06:57 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="edificio" id="27A9B186-778A-EB31-2CB9-3C3D95734A92">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:06:57 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80719A9C-B496-5D07-E666-2BBC36C07733" name="AULA_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:06:57 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="18B2739B-2BF2-6B25-4E55-D17A05B1F1F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

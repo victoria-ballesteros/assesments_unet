@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="11D5CED1-0FE3-2898-E7A4-22164EC99EDF" name="ESTADO">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:01:29 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_estado" id="06B25F3A-0162-F7C2-88C1-C0BCC11C8170">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:02:23 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3231D1F8-7415-F61E-8000-4F69E9384C8C">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:02:23 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_pais" id="A6F5ACE4-FEA2-D78D-9F19-68C2C6A839C3">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:02:37 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="42DBB5A9-9B16-3C2D-1F8F-004762A7B324" referredColumn="742304A4-60C7-975F-B943-3C2FD0E82BD1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0F09EC8C-F399-69B7-892D-8A9C3F26FCD2" name="ESTADO_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:02:35 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="06B25F3A-0162-F7C2-88C1-C0BCC11C8170"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97F1E611-1964-C722-A92D-2AB1AB085A4B" name="ESTADO_PAIS_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:02:37 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6F5ACE4-FEA2-D78D-9F19-68C2C6A839C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

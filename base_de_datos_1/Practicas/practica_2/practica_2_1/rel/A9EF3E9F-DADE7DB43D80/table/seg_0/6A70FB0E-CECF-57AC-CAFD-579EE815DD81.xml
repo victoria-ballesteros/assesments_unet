@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6A70FB0E-CECF-57AC-CAFD-579EE815DD81" name="CUENTA">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:24:36 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCuenta" id="E72142A8-0A41-56D5-A5FC-6E4AE7FEE0B9">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:25:53 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="saldo" id="8674A717-A62F-A2AD-D0B4-E6BAC145BBC8">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:25:53 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idSucursal" id="9D5833B2-D0A4-55A2-8C6B-635D45284FCB">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:25:53 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C5E85FD4-63CD-89FD-6136-45183E0DC510" referredColumn="C275AEF1-9FE6-CE3E-8529-D7ABF5474D45"/>
+</associations>
+</Column>
+<Column name="idCliente" id="6BB8421C-8C8B-BDD5-CFF4-593258921D63">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:25:53 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C19435AF-D5C7-B780-D996-00F97FF6D3BD" referredColumn="C4640EE9-339C-E4DE-99E9-34D0AF0D29D6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5B342CC0-E8AF-8143-6504-E7B19257B1B7" name="CUENTA_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:30:05 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E72142A8-0A41-56D5-A5FC-6E4AE7FEE0B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDE1EE12-B380-D0D0-A851-1EBE2C884FB1" name="CUENTA_CLIENTE_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:31:27 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6BB8421C-8C8B-BDD5-CFF4-593258921D63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1DAFCB31-09F1-A567-DD01-6DD1346E9928" name="CUENTA_SUCURSAL_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:33:26 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D5833B2-D0A4-55A2-8C6B-635D45284FCB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

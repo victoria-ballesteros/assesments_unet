@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44D5C6AE-F57D-1780-5460-3B758E1289C4" name="INSCRIPCION">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:45:10 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idInscripcion" id="CCDA25CD-6685-B9B2-C443-A3A6AD186B05">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:45:43 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idEstudiante" id="4548C925-7771-91AD-91FB-FE9E2219FC20">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:47:41 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="34ACEB07-92D5-0EB7-45C8-713676AF4A14" referredColumn="523DE941-5236-4DA5-2D3B-B4102FAF0376"/>
+</associations>
+</Column>
+<Column name="idInstructor" id="34FB97C9-0C06-B025-D556-948658B9C8E3">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:48:05 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5541D9AD-05B5-6ECE-D69B-8138D89F6D84" referredColumn="65270002-14D6-3C28-434C-DCC8CF7301D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDF49B04-2B91-F550-D102-2F2360328DC8" name="INSCRIPCION_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:45:43 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CCDA25CD-6685-B9B2-C443-A3A6AD186B05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="704951B6-4AFF-AEB5-A40F-03B0420B501F" name="INSCRIPCION_ESTUDIANTE_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:47:41 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4548C925-7771-91AD-91FB-FE9E2219FC20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5366B0D-1C34-93F4-86F5-7BF00F6C5E1D" name="INSCRIPCION_INSTRUCTOR_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:48:05 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34FB97C9-0C06-B025-D556-948658B9C8E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

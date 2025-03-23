@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CF0DDB33-4DA7-FE12-98AD-4EE9961AC47F" name="CLIENTE">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:20:50 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCliente" id="C4640EE9-339C-E4DE-99E9-34D0AF0D29D6">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:22:09 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="D6E42143-FA2E-3C9A-E905-FC52575E03F6">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:22:09 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="seguro_social" id="D774631A-F600-1EAA-2576-FC361C08C59C">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:22:09 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="calle" id="866F7625-3BB5-98FB-946B-5A73EAC04F07">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:22:09 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciudad" id="D7231254-CC06-40A9-8BCE-D23135A260F9">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:22:09 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="38E9AC92-7C73-2ACD-2CDE-F88290BB492B" name="CLIENTE_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:30:17 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4640EE9-339C-E4DE-99E9-34D0AF0D29D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,36 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D82DCF9-F95C-F648-1685-960A2475F39D" name="PAIS">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:00:39 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nombre" id="742304A4-60C7-975F-B943-3C2FD0E82BD1">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:01:10 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3E7846F4-B1F4-4E1E-8810-A8B01158EC36" name="PAIS_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:01:22 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="742304A4-60C7-975F-B943-3C2FD0E82BD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

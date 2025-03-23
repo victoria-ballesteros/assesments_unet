@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E9A8900F-AA2A-BB6B-6392-340C938F887F" name="EXAMEN">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:09:20 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idExamen" id="B55DC6F7-716C-B743-E055-C9788089809C">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:10:43 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="9237DFBB-7419-A535-38AD-1CD42094E61A">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:10:43 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="puntaje" id="FB24F5ED-DEC4-7A18-1275-01D4293FC999">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:10:43 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idAsignatura" id="56BFADDD-0705-00E4-A3EE-496144A504F6">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:10:43 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22CA1EE8-6D89-9F08-C7BE-45AA9846E63D" referredColumn="4042AA72-50BE-7CC4-8B2D-6FC260AFA3B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B2D9ECE7-BB4D-8270-5E29-2819E6D1C5E0" name="EXAMEN_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:10:43 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B55DC6F7-716C-B743-E055-C9788089809C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5A49DB2-2A19-42B8-572E-F25F779EEF49" name="EXAMEN__UN">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:11:37 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56BFADDD-0705-00E4-A3EE-496144A504F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19017F91-36F9-B22A-05CD-44FCE3821904" name="EXAMEN_ASIGNATURA_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:11:02 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="56BFADDD-0705-00E4-A3EE-496144A504F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

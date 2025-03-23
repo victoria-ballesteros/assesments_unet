@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3D987C3-C4AA-77F8-50E7-08B4F40219C4" name="COMPRA">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:11:24 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_compra" id="C52F2580-C0E9-E7CA-D033-EDBE8F0E452A">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:12:11 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_producto" id="9CB659AD-E656-B2A3-A17F-00B7F9AAD25E">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:12:11 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0B1A702-F826-63C1-52E6-BBEA529F9A5B" referredColumn="C232F8A6-754B-E2EF-384A-A0293474C0E3"/>
+</associations>
+</Column>
+<Column name="cantidad" id="1080E614-CC5B-CF97-4FBC-4D705EA36C9E">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:12:11 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nro_factura" id="E69BFD29-1DEE-1EDB-2A77-D3AA5727D171">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:13:36 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="819047D4-61CC-C70B-A025-066C3472729E" referredColumn="0B195067-3E4C-DA06-4F00-B8E2F232820A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C58AC47C-E3A4-A81C-53A0-3A4716780299" name="COMPRA_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:12:11 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C52F2580-C0E9-E7CA-D033-EDBE8F0E452A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5CBD4D1F-A9DF-69E6-1007-B3C6BEEC02F5" name="COMPRA_PRODUCTO_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:13:03 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CB659AD-E656-B2A3-A17F-00B7F9AAD25E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E724239-9F83-0E7A-48AA-72E32080471A" name="COMPRA_FACTURA_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 21:13:36 UTC</createdTime>
+<ownerDesignName>practica_2_5</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E69BFD29-1DEE-1EDB-2A77-D3AA5727D171"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

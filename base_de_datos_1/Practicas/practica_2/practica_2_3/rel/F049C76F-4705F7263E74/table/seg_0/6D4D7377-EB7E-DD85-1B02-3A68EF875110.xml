@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D4D7377-EB7E-DD85-1B02-3A68EF875110" name="PERSONA">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:30:03 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cedula" id="C6BD6486-BCDB-B9F3-45D4-F876A6A9AB30">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:30:36 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="3BA50F29-6268-AABC-00A2-791294EB5EE2">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:30:36 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C8B8CC6F-E2C6-D166-C113-DC0DA51F2A9E" name="PERSONA_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:30:36 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6BD6486-BCDB-B9F3-45D4-F876A6A9AB30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

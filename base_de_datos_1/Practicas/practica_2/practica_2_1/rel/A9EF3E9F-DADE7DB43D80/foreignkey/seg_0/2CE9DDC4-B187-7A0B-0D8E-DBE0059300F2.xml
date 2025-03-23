@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2CE9DDC4-B187-7A0B-0D8E-DBE0059300F2" containerWithKeyObject="D2DED505-E99F-0C59-C1DB-ECA55A19996C" localFKIndex="BE875077-96E9-12F3-F68F-2DA15A271400" name="TRANSACCION_CUENTA_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:37:35 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<referredTableLongName>CUENTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6A70FB0E-CECF-57AC-CAFD-579EE815DD81</referredTableID>
+<keyObject>5B342CC0-E8AF-8143-6504-E7B19257B1B7</keyObject>
+<referredKeyID>5B342CC0-E8AF-8143-6504-E7B19257B1B7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>idCuenta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

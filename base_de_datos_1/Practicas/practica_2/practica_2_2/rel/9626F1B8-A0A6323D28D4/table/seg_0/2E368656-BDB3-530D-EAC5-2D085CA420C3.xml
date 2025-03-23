@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E368656-BDB3-530D-EAC5-2D085CA420C3" name="SECCION">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:02:47 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idSeccion" id="24E1F849-F3D4-EA69-B3F5-FFEA8DDAA84E">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:04:06 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidadAlumnos" id="D224656A-4AB8-4D13-63BC-44C72582E74A">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:04:06 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idAsignatura" id="7768C025-785F-BD73-AE42-DE46BA41B896">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:04:06 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5FE7A330-8541-DAF1-8ACB-6D9BC9E8A6C8" referredColumn="4042AA72-50BE-7CC4-8B2D-6FC260AFA3B5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF42D732-4325-3853-D370-BD85228E8180" name="SECCION_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:04:06 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="24E1F849-F3D4-EA69-B3F5-FFEA8DDAA84E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0F12EE9A-7ED6-7039-7FC5-E6AD8E3FC2E4" name="SECCION_ASIGNATURA_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:04:35 UTC</createdTime>
+<ownerDesignName>practica_2_2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7768C025-785F-BD73-AE42-DE46BA41B896"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

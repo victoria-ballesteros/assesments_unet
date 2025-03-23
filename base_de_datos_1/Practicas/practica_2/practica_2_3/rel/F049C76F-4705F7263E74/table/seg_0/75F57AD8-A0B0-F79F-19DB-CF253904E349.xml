@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75F57AD8-A0B0-F79F-19DB-CF253904E349" name="HOTEL">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 19:39:31 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idHotel" id="ACFEFBBD-7269-6C0D-D58B-6B1BDB5EDE8B">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:25:37 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="29F87942-893C-0CDB-F568-6F50C27D3A4D">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:25:37 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="6E6A2D22-125B-8CB4-471E-215CCA7BCC71">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:25:37 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion" id="44460ADB-5DEB-25CC-532F-CA8B673CA969">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:25:37 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="095783CD-A45B-44F4-4AE6-AB3A0E5306B6" name="HOTEL_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:25:37 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ACFEFBBD-7269-6C0D-D58B-6B1BDB5EDE8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

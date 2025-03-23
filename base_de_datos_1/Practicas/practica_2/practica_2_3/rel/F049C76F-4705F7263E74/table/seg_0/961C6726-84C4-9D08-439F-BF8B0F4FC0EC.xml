@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="961C6726-84C4-9D08-439F-BF8B0F4FC0EC" name="HABITACION">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:25:41 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idHabitacion" id="76994DD7-BF49-94D1-1199-B585573EB0AF">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:26:42 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numHabitacion" id="9861229E-34B1-F713-6B68-A2BF4805DFFA">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:26:42 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="ECF4C548-AD68-8CB8-0791-8C64E6326349">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:26:42 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idHotel" id="766DEA17-2E86-33AF-7AE1-3272A6CE2895">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:34:54 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58C8630C-A6BA-0153-64D5-A9F896550150" referredColumn="ACFEFBBD-7269-6C0D-D58B-6B1BDB5EDE8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="61A0FA7C-186C-5B97-725A-F9FFFCCDAA32" name="HABITACION_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:26:42 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76994DD7-BF49-94D1-1199-B585573EB0AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="311C4E7E-8ECF-278A-5C20-19F35535A5AE" name="HABITACION__UN">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:26:48 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9861229E-34B1-F713-6B68-A2BF4805DFFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="200544F2-F138-9701-342B-6A428116FF2A" name="HABITACION_HOTEL_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:34:54 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="766DEA17-2E86-33AF-7AE1-3272A6CE2895"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

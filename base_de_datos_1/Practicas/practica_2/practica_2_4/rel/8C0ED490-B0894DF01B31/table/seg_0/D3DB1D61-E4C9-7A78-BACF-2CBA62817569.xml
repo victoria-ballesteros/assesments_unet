@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3DB1D61-E4C9-7A78-BACF-2CBA62817569" name="ESTUDIANTE">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:43:58 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEstudiante" id="523DE941-5236-4DA5-2D3B-B4102FAF0376">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:44:59 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="7A1F5B37-65A8-2BCC-B373-8AF75D985F24">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:44:59 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="A0B677D8-8ACC-90CA-05E7-1292AA13470B">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:44:59 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FF370E33-7369-515A-FEF2-AB05F17FB707" name="ESTUDIANTE_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:44:59 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="523DE941-5236-4DA5-2D3B-B4102FAF0376"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="33A72DB1-3E6C-08FB-C33B-532071B830A1" name="ESTANCIA">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:30:37 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEstancia" id="00CA929C-807E-DD58-E496-9DFA7CB68150">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:32:32 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_arrivo" id="DD56C7FF-F10C-4E6D-8E14-437E96C31FF8">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:32:32 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idPersona" id="58F824AD-B3A2-2C27-C65C-F9008F81D34D">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:32:32 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDA56408-1F1E-C021-0241-1A7CD5C3B0B9" referredColumn="C6BD6486-BCDB-B9F3-45D4-F876A6A9AB30"/>
+</associations>
+</Column>
+<Column name="idHabitacion" id="B568D6B9-D251-1D4B-FC1F-4E9BF636587D">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:32:32 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83AF1E9D-ADBC-8CEC-C343-4DB951C1B488" referredColumn="76994DD7-BF49-94D1-1199-B585573EB0AF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="948BE4D2-B6B6-F1E4-D4A7-0B2BE246E718" name="ESTANCIA_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:36:22 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00CA929C-807E-DD58-E496-9DFA7CB68150"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BC62CC1-3615-2C47-2701-68B961686B49" name="ESTANCIA_PERSONA_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:35:40 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58F824AD-B3A2-2C27-C65C-F9008F81D34D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70A7B31B-5BBD-2B81-8F01-AC24EAC117ED" name="ESTANCIA_HABITACION_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:37:06 UTC</createdTime>
+<ownerDesignName>practica_2_3</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B568D6B9-D251-1D4B-FC1F-4E9BF636587D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

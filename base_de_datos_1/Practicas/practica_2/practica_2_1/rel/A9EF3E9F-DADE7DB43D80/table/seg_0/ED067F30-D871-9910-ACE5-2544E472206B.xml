@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED067F30-D871-9910-ACE5-2544E472206B" name="EMPLEADO">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:22:40 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idEmpleado" id="B147AB45-ADA4-C2BB-6532-16EFD08995D3">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:23:35 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="B45BE193-83E3-F769-04EB-7A75B913FEFE">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:23:35 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="B1235780-CCB6-6AFD-35F9-68FF369C7AB4">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:23:35 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idSucursal" id="F19B3CFE-8084-251A-BA29-DA45A63922F4">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:39:57 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C93B1B9-B775-017E-CA04-96F612B387F4" referredColumn="C275AEF1-9FE6-CE3E-8529-D7ABF5474D45"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B3F4DF0-0A3A-10C5-0AE5-ABC58FF33528" name="EMPLEADO_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:39:57 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B147AB45-ADA4-C2BB-6532-16EFD08995D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="47B425F5-5362-EC6E-8C47-964BAFEC9D0E" name="EMPLEADO_SUCURSAL_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 17:39:57 UTC</createdTime>
+<ownerDesignName>practica_2_1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F19B3CFE-8084-251A-BA29-DA45A63922F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

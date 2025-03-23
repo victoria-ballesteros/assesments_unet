@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="76B5C39B-8C2F-2041-BCF8-DAA967229053" name="CURSO">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:40:45 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<ordsAlias>table_1</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idCurso" id="96ECE995-6794-EEA0-5FEA-45A3A73D330F">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:42:53 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codigo" id="203E155D-D268-84BB-89E3-1AC97AE69C93">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:42:53 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="502562C4-5344-B421-7723-099DBC866B89">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:42:53 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="9654D399-FC43-40E8-5C2C-51E925211C51">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:42:53 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="duracion_dias" id="7CF398A4-4EC2-C865-B087-39787578F5B7">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:42:53 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idInstructor" id="CF083E3E-A540-9759-0F00-039CB8A87D7E">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:46:15 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C3913284-6443-2D14-755D-FF26B1358B36" referredColumn="65270002-14D6-3C28-434C-DCC8CF7301D9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="757A84AF-672C-45E5-9CBD-B5C9A94E899F" name="CURSO_PK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:42:53 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="96ECE995-6794-EEA0-5FEA-45A3A73D330F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7787F662-D332-8C68-1D2D-C2FF9B85D8EF" name="CURSO_INSTRUCTOR_FK">
+<createdBy>victoria</createdBy>
+<createdTime>2025-01-31 20:46:15 UTC</createdTime>
+<ownerDesignName>practica_2_4</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF083E3E-A540-9759-0F00-039CB8A87D7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
